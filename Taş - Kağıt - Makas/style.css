@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #8458B3;
+}
+
+.game{
+    margin: 7rem auto;
+}
+
+h2{
+    border-bottom: 3px solid #d0bdf4;
+    width: max-content;
+    margin: auto;
+    padding: 15px;
+}
+
+.results{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color: #fff685
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    border-radius: 15px;
+    border: 3px solid #d0bdf4;
+    background-color: #d0bdf4;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #a99ac5;
+    
+}
